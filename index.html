@@ -17,6 +17,21 @@ h1 {
 	margin:auto;
 	width:400px;
 	height:400px;
+
+	-webkit-animation: iq 10s; /* Chrome, Safari, Opera */
+    animation: iq 10s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes iq {
+    from {color: black;}
+    to {color: red;}
+}
+
+/* Standard syntax */
+@keyframes iq {
+    from {color: black;}
+    to {color: red;}
 }
 
 </style>
